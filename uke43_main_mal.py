@@ -6,7 +6,7 @@ pg.init()
 pg.display.set_caption('IT2 spill-mal')
 WIDTH = 450
 HEIGHT = 450
-screen = pg.display.set_mode((WIDTH,HEIGHT))
+screen = pg.display.set_mode((0,0),pg.FULLSCREEN)
 FPS = 60
 clock = pg.time.Clock()
 run = True
